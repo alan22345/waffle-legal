@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Waffle</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1c1c1e; background: #fff; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25em; }
+  h2 { font-size: 1.25rem; margin: 2em 0 .5em; }
+  p { margin: 0 0 1em; }
+  ul { margin: 0 0 1em; padding-left: 1.3em; }
+  li { margin: .25em 0; }
+  a { color: #b8742a; }
+  strong { font-weight: 650; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 1.5em; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 10px; border: 1px solid #e2e2e6; vertical-align: top; }
+  th { background: #faf6f0; }
+  footer { max-width: 720px; margin: 0 auto; padding: 0 24px 48px; font-size: .9rem; color: #8a8a8e; }
+  footer a { color: #8a8a8e; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6ea; background: #111; }
+    th { background: #1c1714; }
+    th, td { border-color: #2c2c30; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p><strong>Last updated: 2026-05-23</strong></p>
+<p>This Privacy Policy explains what Waffle ("we", "us") collects when you use the Waffle mobile app, why we collect it, and what choices you have. We try to keep it short and plain.</p>
+<p>If anything here is unclear, email us at <strong>support@waffle.app</strong>.</p>
+<h2>1. Who we are</h2>
+<p>Waffle is a small social app for sharing short video and audio messages — "waffles" — with a fixed circle of friends in private groups. The service is operated by Yegin.</p>
+<h2>2. What we collect</h2>
+<p>You give us the following directly:</p>
+<ul><li><strong>Account info</strong> — your email address, display name, username, and timezone. Your email is used for sign-in via Supabase Auth.</li><li><strong>Waffles</strong> — the audio and video recordings you create and send to your groups.</li><li><strong>Messages</strong> — short text messages you send in group chat.</li><li><strong>Friend graph</strong> — who you've added as a friend and which groups you belong to.</li><li><strong>Group activity</strong> — group membership and message-read timestamps (so we can tell when you've seen something).</li><li><strong>Push notification tokens</strong> — a device-specific token from Firebase Cloud Messaging so we can deliver notifications to your phone.</li></ul>
+<p>We also collect a small amount of activity data automatically:</p>
+<ul><li><strong>View tracking</strong> — which waffles you have watched, so each group can show "seen" state.</li><li><strong>Notification history</strong> — a record of recent notifications we sent you. This table auto-expires after 30 days.</li></ul>
+<p>We do <strong>not</strong> collect: contacts from your address book, precise location, photo library contents, advertising identifiers, or analytics about your usage outside the app.</p>
+<h2>3. Why we collect it</h2>
+<ul><li>To run the service — let you sign in, find your friends, post waffles, receive notifications, and see what's new.</li><li>To enforce our Terms of Service — investigate reports of abuse and remove violating content.</li><li>To communicate with you about the service itself (e.g. security or account issues). We do not send marketing email.</li></ul>
+<h2>4. Who we share it with</h2>
+<p>We use a small number of trusted processors. Your content does not leave these systems.</p>
+<table><thead><tr><th>Processor</th><th>What they do for us</th><th>Where data may be stored</th></tr></thead><tbody><tr><td><strong>Supabase</strong></td><td>Authentication and Postgres database</td><td>EU and US regions</td></tr><tr><td><strong>Cloudflare R2</strong></td><td>Storage of your waffle audio/video files</td><td>Global edge, US-anchored</td></tr><tr><td><strong>Firebase Cloud Messaging</strong></td><td>Delivers push notifications to your device</td><td>US</td></tr></tbody></table>
+<p>We do <strong>not</strong> sell your data. We do not share it with advertisers. We do not allow third parties to track you across other apps.</p>
+<h2>5. International transfers</h2>
+<p>Waffle is based in the UK. Some of the processors above operate in the United States. By using Waffle you accept that your data may be transferred to and stored in the US under appropriate safeguards (standard contractual clauses where required by UK GDPR / EU GDPR).</p>
+<h2>6. Notifications and quiet hours</h2>
+<p>We only send push notifications between <strong>08:00 and 22:00 in your device's local timezone</strong>. We will never push you in the middle of the night.</p>
+<h2>7. Retention and deletion</h2>
+<ul><li><strong>Your account and content.</strong> You can permanently delete your account from inside the app: <strong>Settings → Profile → Delete my account</strong>. This cascade-deletes your account record, your waffles, your messages, your push tokens, your friend links, and your group memberships.</li><li><strong>Notifications.</strong> The notification history table auto-expires after 30 days.</li><li><strong>Stored media.</strong> Waffle audio/video objects live in Cloudflare R2. We are working on automatic deletion of orphaned media; in the meantime you can request deletion of any specific media by emailing <strong>support@waffle.app</strong>.</li></ul>
+<h2>8. Your rights (UK &amp; EU)</h2>
+<p>If you are in the UK or EU, GDPR gives you the right to:</p>
+<ul><li>access the personal data we hold about you,</li><li>correct it if it's wrong,</li><li>delete it (the in-app "Delete my account" flow is the fastest route),</li><li>restrict or object to processing,</li><li>export your data in a portable format,</li><li>complain to a supervisory authority (in the UK, the <a href="https://ico.org.uk">ICO</a>).</li></ul>
+<p>To exercise any of these rights, email <strong>support@waffle.app</strong>.</p>
+<h2>9. Security</h2>
+<p>We use TLS in transit and rely on Supabase and Cloudflare for at-rest encryption of their respective stores. No system is perfectly secure; if you discover a vulnerability, please email <strong>support@waffle.app</strong>.</p>
+<h2>10. Children</h2>
+<p>Waffle is not directed at children under 13 (or under 16 in the European Economic Area). We do not knowingly collect personal data from children. If you believe a child has created an account, email us and we will delete it.</p>
+<h2>11. Changes to this policy</h2>
+<p>If we change this policy we will update the "Last updated" date at the top and, where the change is material, surface it in the app before it takes effect.</p>
+<h2>12. Contact</h2>
+<p>Questions, requests, or complaints: <strong>support@waffle.app</strong>.</p>
+</main>
+<footer><a href="../privacy/">Privacy Policy</a> &middot; <a href="../terms/">Terms of Service</a></footer>
+</body>
+</html>
