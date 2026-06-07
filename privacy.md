@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 2026-05-23**
+**Last updated: 2026-06-07**
 
 This Privacy Policy explains what Waffle ("we", "us") collects when you use the Waffle mobile app, why we collect it, and what choices you have. We try to keep it short and plain.
 
@@ -20,13 +20,16 @@ You give us the following directly:
 - **Friend graph** — who you've added as a friend and which groups you belong to.
 - **Group activity** — group membership and message-read timestamps (so we can tell when you've seen something).
 - **Push notification tokens** — a device-specific token from Firebase Cloud Messaging so we can deliver notifications to your phone.
+- **Reports and blocks** — if you report a waffle, message, or person, or block another user, we store that action (and any reason you give) so we can keep the service safe and make blocks take effect.
 
-We also collect a small amount of activity data automatically:
+We also collect a small amount of activity and technical data automatically:
 
 - **View tracking** — which waffles you have watched, so each group can show "seen" state.
 - **Notification history** — a record of recent notifications we sent you. This table auto-expires after 30 days.
+- **Crash and diagnostic data** — when the app crashes or hits an error, we send a diagnostic report to our error-monitoring provider (Sentry). It includes the error details, your device model, operating-system version, app version, and your account's user ID, so we can find and fix problems.
+- **IP address** — when your app talks to our servers, we briefly process the request's IP address to enforce rate limits and prevent abuse. These rate-limit records are deleted automatically within minutes.
 
-We do **not** collect: contacts from your address book, precise location, photo library contents, advertising identifiers, or analytics about your usage outside the app.
+We do **not** collect: contacts from your address book, precise location, photo-library contents, advertising identifiers, or behavioural analytics that track you across other apps and websites.
 
 ## 3. Why we collect it
 
@@ -43,6 +46,7 @@ We use a small number of trusted processors. Your content does not leave these s
 | **Supabase** | Authentication and Postgres database | EU and US regions |
 | **Cloudflare R2** | Storage of your waffle audio/video files | Global edge, US-anchored |
 | **Firebase Cloud Messaging** | Delivers push notifications to your device | US |
+| **Sentry** | Crash and error diagnostics, so we can fix bugs | US |
 
 We do **not** sell your data. We do not share it with advertisers. We do not allow third parties to track you across other apps.
 
@@ -52,7 +56,7 @@ Waffle is based in the UK. Some of the processors above operate in the United St
 
 ## 6. Notifications and quiet hours
 
-We only send push notifications between **08:00 and 22:00 in your device's local timezone**. We will never push you in the middle of the night.
+By default we only send push notifications between **08:00 and 22:00 in your device's local timezone**, and you can adjust these quiet hours in the app. We will never push you in the middle of the night unless you change this yourself.
 
 ## 7. Retention and deletion
 
