@@ -115,7 +115,7 @@ const STYLE = `
 
 function page(title, bodyHtml, withNav) {
   const nav = withNav
-    ? `<footer><a href="../privacy/">Privacy Policy</a> &middot; <a href="../terms/">Terms of Service</a></footer>`
+    ? `<footer><a href="../privacy/">Privacy Policy</a> &middot; <a href="../terms/">Terms of Service</a> &middot; <a href="../support/">Support</a></footer>`
     : "";
   return `<!doctype html>
 <html lang="en">
@@ -144,14 +144,16 @@ function writePage(dir, title, mdFile) {
 
 writePage("privacy", "Privacy Policy", "privacy.md");
 writePage("terms", "Terms of Service", "terms.md");
+writePage("support", "Support", "support.md");
 
 // Landing page.
 const indexBody = `<h1>Waffle</h1>
-<p>Legal documents for the Waffle mobile app.</p>
+<p>Legal documents and support for the Waffle mobile app.</p>
 <ul>
 <li><a href="privacy/">Privacy Policy</a></li>
 <li><a href="terms/">Terms of Service</a></li>
+<li><a href="support/">Support</a></li>
 </ul>
-<p>Questions: <a href="mailto:support@waffle.app">support@waffle.app</a></p>`;
+<p>Questions: <a href="mailto:wafflingwafflerswaffle@gmail.com">wafflingwafflerswaffle@gmail.com</a></p>`;
 fs.writeFileSync(path.join(__dirname, "index.html"), page("Legal", indexBody, false));
 console.log("wrote index.html");
