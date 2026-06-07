@@ -4,7 +4,7 @@
 
 This Privacy Policy explains what Waffle ("we", "us") collects when you use the Waffle mobile app, why we collect it, and what choices you have. We try to keep it short and plain.
 
-If anything here is unclear, email us at **support@waffle.app**.
+If anything here is unclear, email us at **wafflingwafflerswaffle@gmail.com**.
 
 ## 1. Who we are
 
@@ -62,7 +62,7 @@ By default we only send push notifications between **08:00 and 22:00 in your dev
 
 - **Your account and content.** You can permanently delete your account from inside the app: **Settings → Profile → Delete my account**. This cascade-deletes your account record, your waffles, your messages, your push tokens, your friend links, and your group memberships.
 - **Notifications.** The notification history table auto-expires after 30 days.
-- **Stored media.** Waffle audio/video objects live in Cloudflare R2. We are working on automatic deletion of orphaned media; in the meantime you can request deletion of any specific media by emailing **support@waffle.app**.
+- **Stored media.** Waffle audio/video objects live in Cloudflare R2. We are working on automatic deletion of orphaned media; in the meantime you can request deletion of any specific media by emailing **wafflingwafflerswaffle@gmail.com**.
 
 ## 8. Your rights (UK & EU)
 
@@ -75,11 +75,11 @@ If you are in the UK or EU, GDPR gives you the right to:
 - export your data in a portable format,
 - complain to a supervisory authority (in the UK, the [ICO](https://ico.org.uk)).
 
-To exercise any of these rights, email **support@waffle.app**.
+To exercise any of these rights, email **wafflingwafflerswaffle@gmail.com**.
 
 ## 9. Security
 
-We use TLS in transit and rely on Supabase and Cloudflare for at-rest encryption of their respective stores. No system is perfectly secure; if you discover a vulnerability, please email **support@waffle.app**.
+We use TLS in transit and rely on Supabase and Cloudflare for at-rest encryption of their respective stores. No system is perfectly secure; if you discover a vulnerability, please email **wafflingwafflerswaffle@gmail.com**.
 
 ## 10. Children
 
@@ -91,4 +91,4 @@ If we change this policy we will update the "Last updated" date at the top and, 
 
 ## 12. Contact
 
-Questions, requests, or complaints: **support@waffle.app**.
+Questions, requests, or complaints: **wafflingwafflerswaffle@gmail.com**.

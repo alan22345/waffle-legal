@@ -4,7 +4,7 @@
 
 These Terms of Service ("Terms") govern your use of the Waffle mobile app and related services (collectively, "Waffle", "the service"). By creating an account or using Waffle, you agree to these Terms. If you do not agree, do not use the service.
 
-Waffle is operated by Yegin ("we", "us"). Contact: **support@waffle.app**.
+Waffle is operated by Yegin ("we", "us"). Contact: **wafflingwafflerswaffle@gmail.com**.
 
 ## 1. Who can use Waffle
 
@@ -12,7 +12,7 @@ You must be at least **13 years old** to use Waffle (or **16** if you live in th
 
 ## 2. Your account
 
-You're responsible for keeping your sign-in credentials safe and for activity that happens under your account. Don't share your account. Tell us at **support@waffle.app** if you think your account has been compromised.
+You're responsible for keeping your sign-in credentials safe and for activity that happens under your account. Don't share your account. Tell us at **wafflingwafflerswaffle@gmail.com** if you think your account has been compromised.
 
 ## 3. Acceptable use
 
@@ -49,7 +49,7 @@ Waffle is a UGC service and we take moderation seriously.
 - **Reporting.** You can report a waffle, a message, or a user from inside the app. Reports go directly to our moderation queue.
 - **Review time.** We aim to review every report **within 24 hours**.
 - **Action.** Content found in violation of these Terms will be removed. Users found to be in repeated violation may be banned without notice.
-- **Appeals.** If you think we got it wrong, email **support@waffle.app** and we'll take a second look.
+- **Appeals.** If you think we got it wrong, email **wafflingwafflerswaffle@gmail.com** and we'll take a second look.
 
 We may also remove content or suspend accounts proactively if we discover violations, without waiting for a report.
 
@@ -87,4 +87,4 @@ We may update these Terms. When we do, we'll update the "Last updated" date and,
 
 ## 13. Contact
 
-Questions about these Terms: **support@waffle.app**.
+Questions about these Terms: **wafflingwafflerswaffle@gmail.com**.
